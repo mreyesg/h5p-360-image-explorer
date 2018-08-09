@@ -1,0 +1,9 @@
+node_modules
+scripts
+styles
+.babelrc
+.h5pignore
+package.json
+package-lock.json
+README.md
+webpack.config.js
