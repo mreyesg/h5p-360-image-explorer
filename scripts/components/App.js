@@ -12,7 +12,7 @@ class App extends React.Component {
     }
 
     // Init graphics engine
-    const wrapperElement = React.createRef();
+    const wrapperElement = React.createRef(); //provide a way to access DOM
     const graphicsEngine = new GraphicsEngine(imagePath);
     graphicsEngine.initializeMovementListeners();
 
